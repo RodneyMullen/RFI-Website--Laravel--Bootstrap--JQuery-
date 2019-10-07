@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-Jul-2019, 09:57:56
+    Author     : Rodney
+*/
+
+
+	.navbar-default
+	{
+	    background-color: #006C28;
+           
+            
+	}
+	
+	.navbar-nav
+	{
+	   padding-left: 20px;
+           text-align: left;
+           
+	}
+	
+	.navbar .navbar-nav > li > a {
+ 
+		color: #FFFFFF;
+                
+ 	}
+ 
+	.navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+ 
+		color: #e5dbdb;
+ 
+	}
+	
+	.list-group a:focus, .list-group a:hover
+	{
+	  
+	  	 background-color: #006C28;
+	  color: #FFFFFF;
+	}
+	
+	.sidebar-nav
+	{
+		padding-top: 20px;
+		
+	}
+        
+
+        
+        .nav-link
+        {
+            font-size: 14px;
+            font-weight:bold;
+        }
+        
+        .nav
+        {
+            background-color: #006C28;
+        }
+        
+        .navbar
+        {
+            background-color: #006C28;
+            padding: 0px;
+            font-size: 14px;
+            font-weight:bold;
+            width:100%;
+        }
+        
+        .navbar-laravel
+        {
+            background-color:#fff;
+            box-shadow:0 2px 2px rgba(0,0,0,.04)
+        }
+        
+        .img-fluid
+        {
+            width:100%;
+            height:auto;
+        }
+        
+        .form-check-label
+        {
+          padding-left: 20px;
+          padding-top: 5px;
+        }
+  
+        /* Login and Register headers on login and register pages
+        */
+        .card-header
+        {
+            background-color: #006C28;
+            color: #FFFFFF;
+            font-size: 12px;
+            font-weight:bold;
+        }
+      footer p
+      {
+          text-align: center;
+      }
+      
+      
+      // modal headers
+      .modal-header
+     {
+         background-color: #006C28;
+     }

@@ -103,8 +103,79 @@ and open the template in the editor.
       }
       
       
-      // modal headers
+      /* modal headers*/
       .modal-header
      {
          background-color: #006C28;
      }
+     
+    /*dropdown menus*/
+     .dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+/*footer */
+
+.footer-rfi{
+    background-color: #006C28;
+    color: #FFFFFF;
+    
+}
+.bold-text{
+    font-weight: bold;
+}
+
+.list-group-item-rfi{
+     background-color: #006C28;
+     color: #FFFFFF;
+    
+}
+
+
+/* Faccebook icon
+*/
+
+.btn-facebook {
+    color: #fffff;
+    background-color: #3b5998;
+    border-color: rgba(0,0,0,0.2);
+}
+
+.btn-social {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-social:hover {
+    color: #eee;
+}
+
+.btn-social :first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    padding: 7px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
